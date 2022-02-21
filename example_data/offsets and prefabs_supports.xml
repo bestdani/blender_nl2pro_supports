@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <supports>
+    <rasc type="258" center_rails_coord="1.9685" custom_track_index="0" size="0.508">
+      <subnode id="0">
+        <pos>2.62297 3.95445 15.5684</pos>
+      </subnode>
+      <subnode id="1">
+        <pos>2.62297 3.45445 15.5684</pos>
+      </subnode>
+    </rasc>
+    <rasc type="0" center_rails_coord="1.14676" custom_track_index="1">
+      <subnode id="2">
+        <pos>2.38747 6.2 15.2781</pos>
+      </subnode>
+    </rasc>
+    <prefab center_rails_coord="3.35002" custom_track_index="1" path="intern:data/prefabs/Track Default Double.nl2prefab">
+      <atomization>
+        <supports>
+          <freenode id="3">
+            <pos>0.25 5.87488 15.8125</pos>
+          </freenode>
+          <footernode id="4" contype="1" basetype="0">
+            <pos>0.25 1.3 15.8125</pos>
+            <rotation>-1.81578</rotation>
+            <height_above_terrain>0.3</height_above_terrain>
+          </footernode>
+          <footernode id="5" contype="1" basetype="0">
+            <pos>-0.301331 1.3 13.6072</pos>
+            <rotation>-1.81578</rotation>
+            <height_above_terrain>0.3</height_above_terrain>
+          </footernode>
+          <rasc type="2" center_rails_coord="3.35002" custom_track_index="1">
+            <subnode id="6">
+              <pos>0.25 6.2 15.8125</pos>
+            </subnode>
+          </rasc>
+          <beam start="6" end="3" type="1" size1="0.4064"/>
+          <beam start="3" end="4" type="1" size1="0.4064">
+            <beamnode id="7" pos="0.1066" type="0"/>
+          </beam>
+          <beam start="7" end="5" type="1" size1="0.4064">
+            <beamnode id="8" pos="0.26069" type="1"/>
+          </beam>
+        </supports>
+      </atomization>
+    </prefab>
+    <freenode id="9">
+      <pos>2 2.5 19.5</pos>
+    </freenode>
+    <freenode id="10">
+      <pos>2 2 15.5</pos>
+    </freenode>
+    <footernode id="11" contype="1" basetype="2">
+      <pos>2 1.3 19.5</pos>
+      <rotation>0.436332</rotation>
+      <height_above_terrain>0.3</height_above_terrain>
+    </footernode>
+    <beam start="10" end="9" type="5" size1="0.219075" size2="0.5">
+      <rotation>0.261799</rotation>
+      <start_extra_length>0.2</start_extra_length>
+      <end_extra_length>0.4</end_extra_length>
+      <offset_rel_x>0.6</offset_rel_x>
+      <offset_abs_y1>0.8</offset_abs_y1>
+      <offset_abs_y2>1</offset_abs_y2>
+      <colormode_custom r="1" g="0.0823529" b="0.0823529"/>
+      <lod>lowest</lod>
+      <open_start_cap/>
+      <open_end_cap/>
+      <open_caps_for_lods/>
+      <dim_tunnel/>
+      <display_bolts/>
+    </beam>
+    <beam start="9" end="11" type="7" size1="0.1" size2="0.2">
+      <rotation>0.261799</rotation>
+      <colormode_unpaintedmetal/>
+      <vertical/>
+      <lod>high</lod>
+      <open_start_cap/>
+      <open_end_cap/>
+      <open_caps_for_lods/>
+      <display_bolts/>
+      <beamnode id="12" pos="0.324174" type="4"/>
+    </beam>
+  </supports>
+</root>

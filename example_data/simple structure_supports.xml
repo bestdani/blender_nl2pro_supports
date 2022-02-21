@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <supports>
+    <rasc type="2" center_rails_coord="2.74218" custom_track_index="0">
+      <subnode id="0">
+        <pos>0.6 3.7 -11.2578</pos>
+      </subnode>
+    </rasc>
+    <rasc type="2" center_rails_coord="7.24337" custom_track_index="0">
+      <subnode id="1">
+        <pos>0.6 3.7 -6.75663</pos>
+      </subnode>
+    </rasc>
+    <prefab center_rails_coord="11.0504" custom_track_index="0" path="intern:data/prefabs/Track Default Double.nl2prefab">
+      <atomization>
+        <supports>
+          <freenode id="2">
+            <pos>0.6 3.37488 -2.94965</pos>
+          </freenode>
+          <footernode id="3" contype="1" basetype="0">
+            <pos>0.6 1.3 -2.94965</pos>
+            <rotation>3.14159</rotation>
+            <height_above_terrain>0.3</height_above_terrain>
+          </footernode>
+          <footernode id="4" contype="1" basetype="0">
+            <pos>-0.507425 1.3 -2.94965</pos>
+            <rotation>3.14159</rotation>
+            <height_above_terrain>0.3</height_above_terrain>
+          </footernode>
+          <rasc type="2" center_rails_coord="11.0504" custom_track_index="0">
+            <subnode id="5">
+              <pos>0.6 3.7 -2.94965</pos>
+            </subnode>
+          </rasc>
+          <beam start="5" end="2" type="1" size1="0.4064"/>
+          <beam start="2" end="3" type="1" size1="0.4064">
+            <beamnode id="6" pos="0.23504" type="0"/>
+          </beam>
+          <beam start="6" end="4" type="1" size1="0.4064"/>
+        </supports>
+      </atomization>
+    </prefab>
+    <rasc type="2" center_rails_coord="16.0914" custom_track_index="0">
+      <subnode id="7">
+        <pos>0.6 3.7 2.09143</pos>
+      </subnode>
+    </rasc>
+    <prefab center_rails_coord="14.3227" custom_track_index="0" path="intern:data/prefabs/Giga Box 90Deg Type C.nl2prefab">
+      <atomization>
+        <supports>
+          <freenode id="8">
+            <pos>0.6 3.4 0.322694</pos>
+          </freenode>
+          <freenode id="9">
+            <pos>0.6 2.1046 0.322694</pos>
+          </freenode>
+          <footernode id="10" contype="0" basetype="0">
+            <pos>0.6 1.3 0.322694</pos>
+            <rotation>-1.5708</rotation>
+            <height_above_terrain>0.3</height_above_terrain>
+          </footernode>
+          <footernode id="11" contype="0" basetype="0">
+            <pos>0.6 1.3 -1.09491</pos>
+            <rotation>-1.5708</rotation>
+            <height_above_terrain>0.3</height_above_terrain>
+          </footernode>
+          <rasc type="2" center_rails_coord="14.3227" custom_track_index="0">
+            <subnode id="12">
+              <pos>0.6 3.7 0.322694</pos>
+            </subnode>
+            <colormode_mainspine/>
+          </rasc>
+          <beam start="12" end="8" type="1" size1="0.4572" size2="0.4572">
+            <rotation>4.71239</rotation>
+            <start_extra_length>0.1</start_extra_length>
+            <colormode_mainspine/>
+            <vertical/>
+            <beamnode id="13" pos="1" type="1"/>
+          </beam>
+          <beam start="8" end="9" type="1" size1="0.4572" size2="0.4572">
+            <rotation>4.71239</rotation>
+            <vertical/>
+            <beamnode id="14" pos="0.27" type="0"/>
+            <beamnode id="15" pos="0.5" type="0"/>
+            <beamnode id="16" pos="0" type="1"/>
+          </beam>
+          <beam start="14" end="10" type="5" size1="0.508" size2="0.508">
+            <rotation>4.71239</rotation>
+            <vertical/>
+          </beam>
+          <beam start="15" end="11" type="5" size1="0.50292" size2="0.50292">
+            <rotation>4.71239</rotation>
+            <vertical/>
+          </beam>
+        </supports>
+      </atomization>
+    </prefab>
+    <freenode id="17">
+      <pos>0.6 3.87488 2.09143</pos>
+    </freenode>
+    <freenode id="18">
+      <pos>-4.6 3.4 -4.2</pos>
+    </freenode>
+    <freenode id="19">
+      <pos>-4.4 3.1 3</pos>
+    </freenode>
+    <freenode id="20">
+      <pos>-9.3 3.1 -4.2</pos>
+    </freenode>
+    <freenode id="21">
+      <pos>-7.6 3.1 -0.4</pos>
+    </freenode>
+    <freenode id="22">
+      <pos>-4.4 5.5 3</pos>
+    </freenode>
+    <freenode id="23">
+      <pos>-7.6 5.5 -0.4</pos>
+    </freenode>
+    <freenode id="24">
+      <pos>-9.3 5.5 -4.2</pos>
+    </freenode>
+    <freenode id="25">
+      <pos>-4.6 5.8 -4.2</pos>
+    </freenode>
+    <freenode id="26">
+      <pos>-7.3 1.4 -15.1</pos>
+    </freenode>
+    <freenode id="27">
+      <pos>-8.1 1.2 -13.2</pos>
+    </freenode>
+    <footernode id="28" contype="0" basetype="0">
+      <pos>0.6 1.3 -11.1</pos>
+      <rotation>0</rotation>
+      <height_above_terrain>0.3</height_above_terrain>
+    </footernode>
+    <footernode id="29" contype="0" basetype="0">
+      <pos>0.6 1.3 -6.7</pos>
+      <rotation>0</rotation>
+      <height_above_terrain>0.3</height_above_terrain>
+    </footernode>
+    <footernode id="30" contype="1" basetype="0">
+      <pos>0.6 1.3 2.09143</pos>
+      <rotation>-3.14159</rotation>
+      <height_above_terrain>0.3</height_above_terrain>
+    </footernode>
+    <footernode id="31" contype="1" basetype="0">
+      <pos>-0.740579 1.3 2.09143</pos>
+      <rotation>-3.14159</rotation>
+      <height_above_terrain>0.3</height_above_terrain>
+    </footernode>
+    <footernode id="32" contype="0" basetype="0">
+      <pos>-4.6 1.3 -4.2</pos>
+      <rotation>0</rotation>
+      <height_above_terrain>0.3</height_above_terrain>
+    </footernode>
+    <footernode id="33" contype="0" basetype="0">
+      <pos>-4.4 1.3 3</pos>
+      <rotation>0</rotation>
+      <height_above_terrain>0.3</height_above_terrain>
+    </footernode>
+    <footernode id="34" contype="0" basetype="0">
+      <pos>-9.3 1.3 -4.2</pos>
+      <rotation>-0.0698132</rotation>
+      <height_above_terrain>0.3</height_above_terrain>
+    </footernode>
+    <footernode id="35" contype="0" basetype="0">
+      <pos>-7.6 1.3 -0.4</pos>
+      <rotation>0.523599</rotation>
+      <height_above_terrain>0.3</height_above_terrain>
+    </footernode>
+    <beam start="28" end="0" type="1" size1="0.4064">
+      <beamnode id="36" pos="0.606158" type="0"/>
+    </beam>
+    <beam start="1" end="29" type="1" size1="0.4064">
+      <beamnode id="37" pos="0.346861" type="0"/>
+    </beam>
+    <beam start="36" end="37" type="1" size1="0.4064"/>
+    <beam start="7" end="17" type="1" size1="0.4064"/>
+    <beam start="17" end="30" type="1" size1="0.4064">
+      <beamnode id="38" pos="0.189399" type="0"/>
+    </beam>
+    <beam start="38" end="31" type="1" size1="0.4064">
+      <beamnode id="39" pos="0.491487" type="1"/>
+    </beam>
+    <beam start="18" end="32" type="1" size1="0.4064"/>
+    <beam start="19" end="33" type="1" size1="0.4064"/>
+    <beam start="18" end="19" type="1" size1="0.4064"/>
+    <beam start="20" end="34" type="1" size1="0.4064"/>
+    <beam start="21" end="35" type="1" size1="0.4064"/>
+    <beam start="18" end="20" type="1" size1="0.4064">
+      <beamnode id="40" pos="0.447482" type="0"/>
+    </beam>
+    <beam start="20" end="21" type="1" size1="0.4064">
+      <offset_rel_x>0.2</offset_rel_x>
+      <offset_abs_y1>0.2</offset_abs_y1>
+      <offset_abs_y2>0.2</offset_abs_y2>
+    </beam>
+    <beam start="24" end="23" type="1" size1="0.4064"/>
+    <beam start="25" end="24" type="1" size1="0.4064">
+      <beamnode id="41" pos="0.34289" type="0"/>
+      <beamnode id="42" pos="0.767825" type="0"/>
+      <beamnode id="43" pos="0.611621" type="0"/>
+      <beamnode id="44" pos="0.137536" type="0"/>
+    </beam>
+    <beam start="25" end="22" type="1" size1="0.4064"/>
+    <beam start="25" end="18" type="1" size1="0.4064"/>
+    <beam start="22" end="19" type="1" size1="0.4064"/>
+    <beam start="23" end="21" type="1" size1="0.4064"/>
+    <beam start="24" end="20" type="1" size1="0.4064">
+      <start_extra_length>0.5</start_extra_length>
+      <beamnode id="45" pos="0.505447" type="1"/>
+    </beam>
+    <beam start="23" end="22" type="1" size1="1.0668">
+      <lod>low</lod>
+    </beam>
+    <beam start="41" end="40" type="1" size1="0.4064"/>
+    <beam start="40" end="43" type="1" size1="0.4064"/>
+    <beam start="42" end="40" type="1" size1="0.4064"/>
+    <beam start="44" end="22" type="1" size1="0.4064"/>
+    <beam start="26" end="27" type="1" size1="0.4064"/>
+  </supports>
+</root>
