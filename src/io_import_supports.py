@@ -1,3 +1,16 @@
+bl_info = {
+    "name": "NoLimits 2 Professional Supports Data (.xml)",
+    "author": "Daniel Hilpert",
+    "version": (0, 1, 0),
+    "blender": (3, 1, 0),
+    "location": "File > Import > NoLimits 2 Professional Supports (.xml)",
+    "description": "Imports a support representation with additional "
+                   "metadata as a mesh wireframe" "from NoLimits 2 Roller "
+                   "Coaster Simulation Professional " "XML Support data.",
+    "wiki_url": "https://github.com/bestdani/blender_nl2pro_supports",
+    "category": "Import-Export"
+}
+
 import dataclasses
 import os
 import pathlib
@@ -633,6 +646,3 @@ def unregister():
 
 if __name__ == "__main__":
     register()
-
-    # test call
-    bpy.ops.import_nl2.supports('INVOKE_DEFAULT')
